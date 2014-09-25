@@ -1,0 +1,11 @@
+Hw1 Coen319 Fall 2014
+Due Date: Oct 1st 7am
+
+Find the string sequence GAAAAT in the file Human_MtDNA.txt
+Return the number of times it was found  in the file and the location of the string (use the line number as the row and the beginning of the string sequence as the column) . 
+
+Turn a hard copy of the hw with the following:
+1. Code
+2. Screen of the code in execution
+3. Execution time for 1,2, 4, 8, 16 threads
+NOTE: use gettimeofday()
