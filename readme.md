@@ -1,5 +1,5 @@
 #Parallel Programming
-====
+____
 ##Santa Clara University
 ####College of Engineering - Computer Engineering Department
 ____
