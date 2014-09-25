@@ -1,6 +1,5 @@
-#Parallel Programming
-____
-##Santa Clara University
+##Parallel Programming
+###Santa Clara University
 ####College of Engineering - Computer Engineering Department
 ____
 
