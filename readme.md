@@ -32,9 +32,9 @@ To gain exposure to the diverse Parallel Programing Languages and understand the
 
 #####Grade Calculation:
 
-*Midtem (40%)
-*Final(40%)
-*Homeworks (20%)
+* Midtem (40%)
+* Final(40%)
+* Homeworks (20%)
 
 #####Homeworks:
 
