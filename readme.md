@@ -42,4 +42,4 @@ Homework will be assigned every week, we will discuss it on the first half hour 
 
 #####Final Project:
 
-To develop an application of your choice using CUDA/OpemCL. The project topics will be discussed and approved during the first week of classes. Project will be due on the last day of classes (DEC 5 23:59). The project must involve a demanding application such as mathematics- or physics-intensive simulation or other data-intensive computation, followed by some form of visualization and display of results. Deliverables: document 4 pages maximum that describes the project and electronic copies of the source code and the executable.
+To develop an application of your choice using CUDA/OpenCL. The project topics will be discussed and approved during the first week of classes. Project will be due on the last day of classes (DEC 5 23:59). The project must involve a demanding application such as mathematics- or physics-intensive simulation or other data-intensive computation, followed by some form of visualization and display of results. Deliverables: document 4 pages maximum that describes the project and electronic copies of the source code and the executable.
