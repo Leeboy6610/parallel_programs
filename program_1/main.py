@@ -1,4 +1,5 @@
 # Python Implementation
+
 import time
 
 def main():
@@ -14,7 +15,7 @@ def main():
 			# else:
 					# print 'Not Found in line ', lineno
 		runtime = time.time() - start_time
-		print count, 'Inputs found in', runtime, 'seconds!!!'
+		print count, 'matches found in', runtime, 'seconds!!!'
 		inF.close()
 
 main()
