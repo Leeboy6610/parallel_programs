@@ -19,7 +19,7 @@ void finder ()
    while(std::getline(ifs, line)){
       lineno++;
       // cout << line << endl;
-      std::size_t found = line.find("GAAAAT");
+      std::size_t found = line.find(str);
       if (found!=std::string::npos){
          count++;
          cout << "Found in line " << lineno << endl;
