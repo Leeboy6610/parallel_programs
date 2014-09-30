@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/time.h>
 #include <pthread.h>
 #include <iostream>
 #include <fstream>
@@ -14,6 +15,9 @@ std::string line;
 
 void finder ()
 {
+   struct timeval tim;
+   gettimeofday(&tim, NULL);
+   double start_time=tim.tv_sec+(tim.tv_usec/1000000.0);
    int count = 0;
    int lineno = 0;
    while(std::getline(ifs, line)){
@@ -28,8 +32,10 @@ void finder ()
          // cout << "Not Found in line " << lineno << endl;
       }
    }
-   int runtime = 0;
-   cout << count << " Inputs found in " << runtime << " seconds!!!" << endl;
+      gettimeofday(&tim, NULL);  
+      double end_time=tim.tv_sec+(tim.tv_usec/1000000.0);
+      double runtime = end_time - start_time;
+      cout << count << " Inputs found in " << runtime << " seconds!!!" << endl;
 }
 
 int main ()
