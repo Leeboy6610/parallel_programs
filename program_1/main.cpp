@@ -62,6 +62,6 @@ int main ()
    gettimeofday(&tim, NULL);  
    double end_time=tim.tv_sec+(tim.tv_usec/1000000.0);
    double runtime = end_time - start_time;
-   cout << totalCount << " GAAAAT's were found in the file in " << runtime << " seconds!!!" << endl;
+   cout << " Program ran in " << runtime << " seconds!!!" << endl;
    return 0;
 }
